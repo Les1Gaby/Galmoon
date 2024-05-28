@@ -9,5 +9,6 @@ con el tiewmpo pienso mejorar la pagina y hacer que funcione al 100% por el mome
 
 ### Vista Previa del Proyecto
 ![Demo](imagenes/Screenshot.png)
+![Demo](imagenes/Screenshot2.png)
 ### Contacto
 Si te gustaría invitarme a colaborar en un proyecto, escríbeme por [LinkedIn](https://www.linkedin.com/in/lesly-gabriela-quiroz-bueno-b0b346183)
