@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #C4DAEC;
+        font-family: "Josefin Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;    
+}
+                                    /*encabezado*/
+header nav img#galmoon-icon{
+    width: 100px;
+    height: 100px;
+}
+header .menu1 {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+header nav a:hover,
+header nav a.active{
+    color: #E64A40; 
+
+}
+nav ul{
+    display: flex;
+   gap: 1.9rem;
+  font-size: larger;
+}
+
+.first li{
+    list-style: none;
+    padding: 0px 12px;
+}
+.menu1 {
+    width: 90%;
+    margin: auto;
+}
+.menu1 .logo{
+    margin-right: 500px;
+    font-style: italic;
+    font-size: larger;
+    color: rgb(61, 110, 236);
+    font-weight: bolder;
+}
+
+                                    /*pelicula principal*/
+.movie-container{
+font-size: 16px;
+min-height: 40.62em;
+color: #ffffff;
+background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%), url(../imagenes/7.jpg);
+background-position: center center;
+background-size: cover ;
+margin-bottom: 3.12em;
+display: flex;
+align-items: end;
+}
+.movie-container .menu{
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+
+}
+.movie-container .tittle{
+    font-weight: 600 bold;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+    margin-left: 50px;
+}
+.movie-container .description{
+    font-size: xx-large;
+    max-width: 50%;
+    margin-bottom: 10px;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 50px;
+}
+
+.movie-container .boton{
+    border: none;
+    border-radius: 5%;
+    padding: 15px 30px;
+    margin-right: 2px;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: larger;
+    margin-left: 50px;
+}
+.movie-container .boton:hover{
+    background: rgb(189, 185, 185);
+}
+.movie-container .boton i { 
+    margin-right: 10px;
+
+}
+
+
+                                         /* peliculas*/
+
+.movies{
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    visibility: visible;
+    border-style:outset;
+    box-sizing: content-box;
+    box-shadow: #000;
+    border-color: rgba(250, 235, 215, 0.87);
+    
+}
+.imagenes{
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 10fr));
+    margin: auto;
+    gap: 30px;
+    
+}
+.imagenes .box-1,
+.imagenes .box-2,
+.imagenes .box-3{
+    position: relative;
+    padding: 6px;
+}
+.imagenes .box-1 img,
+.imagenes .box-2 img,
+.imagenes .box-3 img{
+    border-radius: 15px;
+    min-width: 30px;
+    max-width: 200px;
+}
+h2{
+    color: black;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-weight:600;
+   font-style: oblique;
+    text-decoration:  underline rgb(247, 58, 5);
+    margin-left: 2%;
+}
+
+.box-1:hover :first-child{
+    filter: brightness(60%);
+}
+.box-2:hover :first-child{
+    filter: brightness(60%);
+}
+.box-3:hover :first-child{
+    filter: brightness(60%);
+}
+                                                                /* botones*/
+
+  .button{
+  position: absolute;
+left: 40%;
+bottom: 50%;
+ padding: 13px 15px;
+background-color: yellowgreen;
+ border-radius: 30px;
+border: none;  
+ }
+
+.box-1 .boton i,
+.box-2 .boton i,
+.box-3 .boton i { 
+    margin-right: 5px;
+    color: #f5291a;
+    margin: 2px;
+}
+
+.box-1 .boton,
+.box-2 .boton,
+.box-3 .boton{
+    border: none;
+   font-size: medium;
+   margin: 1px;
+   margin-bottom: 3px;
+}
+.box-1 .boton:hover{
+    background: rgb(225, 196, 235);
+}
+.box-2 .boton:hover{
+    background: rgb(225, 196, 235);
+}
+.box-3 .boton:hover{
+    background: rgb(225, 196, 235);
+}
+                                                                /*pie de pag*/
+.info .tittle5{
+    font-weight: 20 bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #E64A40;
+    margin-top: 20px;
+}
+.info .mail i{
+    text-decoration: none;
+    color: #b71fd6;
+    margin-right: 20px;
+    font-size: x-large;
+    
+}
